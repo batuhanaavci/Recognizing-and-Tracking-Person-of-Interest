@@ -21,6 +21,7 @@ The recognition and tracking of a person of interest is a crucial task in applic
 - **Robust Performance**: We aim to create a solution that can handle various environmental conditions, such as changes in lighting, occlusions, and complex backgrounds.
 - **Integration with Quadcopter Systems**: Our method is designed to be easily integrated with existing quadcopter systems, facilitating practical implementation and deployment.
 
+[![IMAGE ALT TEXT](https://github.com/batuhanaavci/Recognizing-and-Tracking-Person-of-Interest/blob/main/images/image.png)]
 
 ## Getting Started
 To get started with our project, please refer to the following steps:
