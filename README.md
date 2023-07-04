@@ -21,7 +21,12 @@ The recognition and tracking of a person of interest is a crucial task in applic
 - **Robust Performance**: We aim to create a solution that can handle various environmental conditions, such as changes in lighting, occlusions, and complex backgrounds.
 - **Integration with Quadcopter Systems**: Our method is designed to be easily integrated with existing quadcopter systems, facilitating practical implementation and deployment.
 
-[![IMAGE ALT TEXT](https://github.com/batuhanaavci/Recognizing-and-Tracking-Person-of-Interest/blob/main/images/image.png)]
+![IMAGE ALT TEXT](https://github.com/batuhanaavci/Recognizing-and-Tracking-Person-of-Interest/blob/main/images/image.png)
+
+## Dependencies
+ROS2 Foxy
+Matlab R2022b with Deep Learning Toolbox
+Python 3.8.13 with required libraries (specified in the code)
 
 ## Getting Started
 To get started with our project, please refer to the following steps:
@@ -41,7 +46,7 @@ To get started with our project, please refer to the following steps:
 To train your own model, please refer to the following steps:
 
 1. Collect the data set in accordance with the information provided in  `face_recognition/training`
-2. Train your model following the instructions given  in `face_recognition/training/yolov2_train.mlx`
+2. Train your model following the instructions given  in `face_recognition/training/yolov.mlx`
 3. Export your new model to file system and move it to the `face_recognition/real-time` folder
 4. Edit the `face_recognition/real-time/ros_detect_node.m` file with you new DL models name.
 5. Finally run the code.
@@ -57,3 +62,16 @@ For any questions, suggestions, or feedback, please contact us at:
 
 - Name: Batuhan Avci
 - Email: avcib19@itu.edu.tr
+
+## Resources
+
+* [Tello User Manual 1.4](https://dl-cdn.ryzerobotics.com/downloads/Tello/Tello%20User%20Manual%20v1.4.pdf)
+* [SDK 1.3](https://terra-1-g.djicdn.com/2d4dce68897a46b19fc717f3576b7c6a/Tello%20%E7%BC%96%E7%A8%8B%E7%9B%B8%E5%85%B3/For%20Tello/Tello%20SDK%20Documentation%20EN_1.3_1122.pdf)
+for Tello, see the errata below
+* [SDK 2.0](https://dl-cdn.ryzerobotics.com/downloads/Tello/Tello%20SDK%202.0%20User%20Guide.pdf)
+for Tello EDU, see the errata below
+* [Tello EDU Mission Pad Guide (SDK 2.0)](https://dl-cdn.ryzerobotics.com/downloads/Tello/Tello%20Mission%20Pad%20User%20Guide.pdf)
+for Tello EDU
+* [Tello Pilots Developer Forum](https://tellopilots.com/forums/tello-development.8/)
+is a good developer community
+* [Recognizing and Tracking Person of Interest: A Real-Time Efficient Deep Learning based Method for Quadcopters](https://tellopilots.com/forums/tello-development.8/)
