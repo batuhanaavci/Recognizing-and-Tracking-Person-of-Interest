@@ -8,6 +8,13 @@ Welcome to the GitHub repository for our project, which extends the work present
 ## Project Overview
 In this project, we aim to address the challenge of recognizing and tracking a person of interest using quadcopters. Our goal is to develop a real-time, efficient deep learning-based method that enables quadcopters to autonomously detect and track individuals in various scenarios. By leveraging the power of MATLAB and Simulink, we strive to provide a solution with industry relevance and societal impact.
 
+### Abstract
+The recognition and tracking of a person of interest is a crucial task in applications such as search and rescue, security, and surveillance. This thesis presents a distributed system architecture that leverages ROS2 (Robot Operating System 2) and deep learning techniques to develop a real-time efficient method for recognizing and tracking a person of interest using a quadcopter. The system utilizes a deep learning model to recognize persons in snapshots from the quadcopter's camera and generates reference velocity signals for the drone's flight control system to track the person of interest. The proposed architecture is evaluated in cluttered and complex environments, demonstrating its effectiveness in real-world scenarios.
+
+[![IMAGE ALT TEXT](https://img.youtube.com/vi/i7bYXnRy8Vc/0.jpg)](https://www.youtube.com/watch?v=i7bYXnRy8Vc&t=7s "Video Title")
+
+
+
 ## Key Features and Objectives
 - **Real-time Person Recognition**: We employ advanced deep learning techniques to accurately identify individuals in real-time.
 - **Efficient Tracking Algorithm**: Our project focuses on developing an efficient tracking algorithm that enables quadcopters to maintain visual contact with the person of interest.
@@ -39,11 +46,13 @@ To train your own model, please refer to the following steps:
 5. Finally run the code.
 
 ## Contributions
-We appreciate contributions from the community to improve our project. If you would like to contribute, please follow the guidelines outlined in the `contributing.md` file.
+We appreciate contributions from the community to improve our project. 
+
+## License
+This project is licensed under the [MIT License](
 
 ## Contact Information
 For any questions, suggestions, or feedback, please contact us at:
 
-- Name: [Your Name]
-- Email: [Your Email]
-- LinkedIn: [Your LinkedIn Profile URL]
+- Name: Batuhan Avci
+- Email: avcib19@itu.edu.tr
