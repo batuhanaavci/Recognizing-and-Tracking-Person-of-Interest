@@ -6,6 +6,7 @@ MATLAB-ROS2-Python implementation of the system architecture in the following pa
 H. E. Dursun, E. C. Güven, B. Avcı, T. Kumbasar, 2023. Recognizing and Tracking Person of Interest: A Real-Time Efficient Deep Learning based Method for Quadcopters, International Conference on Recent Advances in Air and Space Technologies, Istanbul, Turkey.
 ~~~
 https://ieeexplore.ieee.org/document/10197971
+
 A Real-Time Efficient Deep Learning based Method for Quadcopters
 
 Welcome to the GitHub repository for our project, which extends the work presented in our conference paper titled "Recognizing and Tracking Person of Interest: A Real-Time Efficient Deep Learning based Method for Quadcopters." This repository serves as a comprehensive resource for anyone interested in exploring our project and contributing to its development.
